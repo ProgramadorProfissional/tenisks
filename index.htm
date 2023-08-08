@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tênis - KS</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <section>
+        <nav>
+            <div class="logo">
+                <h1>K<span>S</span></h1>
+            </div>
+
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">Sobre</a></li>
+                <li><a href="#Review"> Feedback</a></li>
+                <li><a href="#Servises">Cadastre-se</a></li>
+            </ul>
+
+           
+        </nav>
+
+        <div class="main" id="Home">
+            <div class="main_content">
+                <div class="main_text">
+                    <h1>TENIS<br><center><span>Ks</span></center></h1>
+                    <p>   O tênis KS é uma fusão de estilo e conforto, ideal para moda urbana e esportiva. Sua parte superior de alta qualidade combina durabilidade e respirabilidade,
+                        enquanto o design elegante inclui detalhes de branding e costuras precisas. A entressola oferece amortecimento avançado para suporte durante o uso diário e 
+                        exercícios leves, e a sola externa aderente proporciona estabilidade.
+                        Disponível em várias cores modernas, o tênis KS é versátil para qualquer ocasião, unindo moda e funcionalidade de forma excepcional. </p>
+                        
+                </div>
+                <div class="main_image">
+                    <img src="image/ks2.png">
+                </div>
+            </div>
+            <div class="social_icon">
+                <i class="fa-brands fa-facebook-f"></i><br>
+                <i class="fa-brands fa-instagram"></i><br>
+                <i class="fa-brands fa-tiktok"></i><br>
+               
+                                       
+            </div>
+        </div>
+
+    </section>
+
+    <!--About-->
+
+    <div class="about" id="About">
+        
+        <h1>Sobre<span>Nós</span></h1>
+
+        <div class="about_main">
+            <div class="about_image">
+                <div class="about_small_image">
+                    <img src="image/ks1.png" onclick="functio(this)">
+                    <img src="image/ks2.png" onclick="functio(this)">
+                    <img src="image/ks3.png" onclick="functio(this)">
+                    <img src="image/ks4.png" onclick="functio(this)">
+                </div>
+
+                <div class="image_contaner">
+                    <img src="image/ks1.png" id="imagebox">
+                </div>
+
+            </div>
+
+            <div class="about_text">
+                <p>
+                    O tênis KS personifica a união perfeita entre design sofisticado, conforto inigualável e habilidade excepcional para o skate. Sua construção utiliza materiais premium, não apenas conferindo um apelo visual impressionante, mas também garantindo uma durabilidade que se destaca nos ambientes mais desafiadores do skate.
+
+O conforto é um traço intrínseco do tênis KS. A entressola meticulosamente projetada adapta-se de forma personalizada a cada passo, proporcionando um amortecimento que vai além das expectativas. Seja enfrentando as demandas de manobras intensas ou durante uma caminhada casual, este tênis oferece um equilíbrio perfeito entre estilo e bem-estar duradouro.
+
+Dedicado aos skatistas, o tênis KS estabelece um novo padrão de excelência. Sua aderência superior à prancha confere um nível de controle preciso que permite explorar manobras com confiança. Graças à sua estrutura reforçada e sola resistente à abrasão, este tênis resiste a todas as provações que a cultura do skate impõe.
+
+Em síntese, o tênis KS transcende o simples status de calçado, tornando-se um símbolo de comprometimento com o desempenho máximo, conforto incomparável e estilo exemplar. Seja você um dedicado skatista ou alguém em busca de uma experiência de uso excepcional, o tênis KS é a escolha definitiva para elevar o skate e o estilo a um patamar totalmente novo.
+                </p>
+            </div>
+
+        </div>
+
+        <a href="#Servises" class="about_btn">Cadastre-se </a>
+
+        <script>
+            function functio(small){
+                var full = document.getElementById("imagebox")
+                full.src = small.src
+            }
+        </script>
+        
+    </div>
+
+
+
+    <!--Review-->
+
+    <div class="review" id="Review">
+        <h1>Feedback dos<span> clientes</span></h1>
+        
+        <div class="review_box">
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+
+                        <div class="profile_image">
+                            <img src="image/girl_dp1.jpg">
+                        </div>
+
+                        <div class="name">
+                            <strong>Isabella</strong>
+
+                            <div class="like">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        "O tênis vermelho KS é incrível! Não apenas é muito bonito, 
+                        mas a sensação de caminhar com ele é como 
+                        se estivesse nas nuvens. Ótimo para looks casuais e também
+                         para sair. Sem dúvida, um dos tênis mais confortáveis que já usei.
+                    </p>
+                </div>
+            </div>   
+
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+
+                        <div class="profile_image">
+                            <img src="image/man_dp1.jpg">
+                        </div>
+
+                        <div class="name">
+                            <strong>Lucas</strong>
+
+                            <div class="like">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        Adorei o tênis vermelho KS! Além de ter um design moderno, ele é 
+                        surpreendentemente confortável. Já o testei em várias atividades, 
+                        incluindo corrida leve e caminhadas, e a sensação é ótima. A escolha 
+                        certa para quem procura estilo e conforto.
+                    </p>
+                </div>
+            </div>   
+
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+
+                        <div class="profile_image">
+                            <img src="image/man_dp2.jpg">
+                        </div>
+
+                        <div class="name">
+                            <strong>Rafaél</strong>
+
+                            <div class="like">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        O tênis vermelho KS é demais! A aderência da sola é incrível, o que é
+                         essencial para mim, já que sou um
+                         entusiasta do skate. Ele se adapta perfeitamente ao meu estilo ativo,
+                          e o fato de ser vermelho só adiciona um toque a mais de estilo.
+                    </p>
+                </div>
+            </div>   
+
+        </div>
+
+        <div class="review_box">
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+
+                        <div class="profile_image">
+                            <img src="image/gir_dp3.jpg">
+                        </div>
+
+                        <div class="name">
+                            <strong>Ana</strong>
+
+                            <div class="like">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        Esse tênis vermelho KS superou minhas expectativas. Eu o uso tanto para atividades
+                         físicas quanto para sair, e ele nunca decepciona. A estabilidade é excelente,
+                          e o design moderno combina perfeitamente com meu estilo.
+                    </p>
+                </div>
+            </div>   
+
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+
+                        <div class="profile_image">
+                            <img src="image/gir_dp2.jpg">
+                        </div>
+
+                        <div class="name">
+                            <strong>Mariana</strong>
+
+                            <div class="like">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        Estou apaixonada pelo meu novo tênis vermelho KS! Além de ser estiloso, 
+                        é super confortável. Eu o usei durante uma longa caminhada e nem senti 
+                        cansaço nos pés. Sem dúvida, uma adição bem-vinda à minha coleção de calçados.
+                    </p>
+                </div>
+            </div>   
+
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+
+                        <div class="profile_image">
+                            <img src="image/man_dp3.jpg">
+                        </div>
+
+                        <div class="name">
+                            <strong>João</strong>
+
+                            <div class="like">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        Fiquei surpreso com o tênis vermelho KS. Não só é elegante, mas o conforto é impressionante.
+                        Usei-o durante longos períodos de tempo e não tive nenhum desconforto.
+                         Ótima escolha para quem procura um tênis versátil.
+                    </p>
+                </div>
+            </div>   
+
+        </div>
+
+    </div>
+
+
+    <!--Services-->
+
+    <div class="services" id="Servises">
+        <h1>Nossos<span>Serviços</span></h1>
+
+        <div class="services_cards">
+            <div class="services_box">
+                <i class="fa-solid fa-truck-fast"></i>
+                <h3>
+                    Entrega rápida</h3>
+                <p>
+                    Compreendemos a importância de <br>
+                    receber seus produtos de forma ágil e eficiente.
+            </div>
+
+            <div class="services_box">
+                <i class="fa-solid fa-rotate-left"></i>
+                <h3>Substituição em 10 dias</h3>
+                <p>
+                    Reconhecemos que, às vezes, as <br>
+                    circunstâncias podem mudar ou os produtos <br>
+                    adquiridos podem não atender às suas expectativas. 
+                </p>
+            </div>
+
+            <div class="services_box">
+                <i class="fa-solid fa-headset"></i>
+                <h3> 
+                    Suporte 24 x 7 </h3>
+                <p>
+                    Entendemos que as necessidades e dúvidas <br>
+                    dos clientes podem surgir a qualquer<br>
+                    momento, inclusive fora do horário 
+                    comercial convencional.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!--Login Form-->
+    
+    <div class="login_form">
+        <div class="left">
+            <img src="image/ks3.png">
+        </div>
+
+        <div class="right">
+            <h1>Cadastre-se agora!</h1>
+
+            <form action="#" method="post">
+                <p> Nome </p>
+                <div class="user">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="user" placeholder="Nome completo " class="username">
+                </div>
+
+                <p class="passworg_tag">Senha</p>
+                <div class="password">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="text" name="password" placeholder="Senha">
+                </div>
+
+                <p class="forget">Esqueceu a senha?</p>
+
+                <button type="submit">Login</button>
+                <div class="loging_icon">
+                    <a href="#"><img src="image/google.png"></a>
+                    <a href="#"><img src="image/facebook.png"></a>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+    <!--Footer-->
+
+    <footer>
+        <div class="footer_main">
+            <div class="tag">
+                <h1>Contatos</h1>
+                <a href="#"><i class="fa-solid fa-house"></i>Rudge Ramos</a>
+                <a href="#"><i class="fa-solid fa-phone"></i>+55 11 96918-6698</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i>lojaks@gmail.com</a>
+            </div>
+
+            
+            <div class="tag">
+                <h1>Nossas lojas</h1>
+              
+                <a href="#" class="center">Diadema</a>
+                <a href="#" class="center">São Caetano</a>
+                <a href="#" class="center">Santo André</a> 
+                 <a href="#" class="center">São Bernardo do Campo</a>
+            </div>
+
+            <div class="tag">
+                <h1>Nos siga</h1>
+                <div class="social_link">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                                       
+                </div>
+            </div>
+
+           
+
+        </div>
+    </footer>
+
+    
+</body>
+</html>
